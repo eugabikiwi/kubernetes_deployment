@@ -19,7 +19,7 @@ spec:
       - name: nginx-container
         image: serv-docker.devops.tech.ec.europa.eu/modsps/nginx:v0.1.0 # Update this if necessary
         ports:
-        - containerPort: 80
+        - containerPort: 90
         resources:
           requests:
             memory: "64Mi"
